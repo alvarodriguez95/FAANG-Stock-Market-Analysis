@@ -24,7 +24,7 @@ The features that will be used are the tickers for the companies as well as star
 
 ## Data Preparation
 Stock market performance analysis includes calulating close stock prices, moving averages, and measuring volatility.
-![Five Year Stock Price of FAANG](https://github.com/alvarodriguez95/FAANG-Stock-Market-Analysis/blob/main/Images/5YrStockPrice.png)
+![Five Year Stock Price of FAANG](Images/5YrStockPrice.png)
 
 Five-Year Return on Investment from FAANG Companies
 
