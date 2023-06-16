@@ -24,24 +24,21 @@ The features that will be used are the tickers for the companies as well as star
 
 ## Data Preparation
 Stock market performance analysis includes calulating close stock prices, moving averages, and measuring volatility.
-![Five Year Stock Price of FAANG](Images/5YrStockPrice.png)
 
 Five-Year Return on Investment from FAANG Companies
-
+![Five Year Stock Price of FAANG](Images/5YrStockPrice.png)
 
 Heatmap of Apple Closing Stock Prices from June 2018 to May 2023
-
-
-
+![HeatMap of Apple](Images/HeatmapApple.png)
 
 
 ## Modeling
-Train-Test Split Apple Closing Prices
+SARIMA Model 
+![SARIMA](Images/SARIMA.png)
 
-
-Sarima Model 
 
 Predicted Model
+![Predicted Model](Images/PredictedModel.png)
 
 ## Evaluation
 The Apple stock would be the best company to predict future prices as it has a 250% rate of return (ROI) in 5 years compared to the rest of the FAANG companies.
@@ -59,6 +56,10 @@ To get a better representation of the variable prices, a root mean squared-error
 In this case, the calculated RMSE value is 12.908619305373424. This means that, on average, the predictions of the SARIMAX model have an error of approximately 12.91 (USD) when compared to the actual values. A lower RMSE value indicates better accuracy, so you would ideally want a lower value for the RMSE.
 
 ## Conclusion
+![Forecast1](Images/Forecast1.png)
+
+![Forecast2](Images/Forecast2.png)
+
 - Forecasted prices of the Apple stock price tends to generally average the peaks and valleys of the actual stock price instead of giving an identical return.
 
 - Forecasted prices would be better for a long term investment rather than a short-term investment, as it is averaging out the values of the stock price, which is generally trending upwards.
